@@ -1,0 +1,35 @@
+{
+  "name": "sellics",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "jest"
+  },
+  "repository": "git@github.com:ranadeep47/sellics.git",
+  "author": "Ranadeep <ranadeep.mobile@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "styled-components": "^5.3.5",
+    "styled-icons": "^10.45.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^13.0.0",
+    "babel-jest": "^27.5.1",
+    "babel-plugin-styled-components": "^2.0.6",
+    "jest": "^27.5.1",
+    "parcel": "^2.4.1"
+  },
+  "jest": {
+    "transformIgnorePatterns": [
+      "node_modules/(?!(<package-name>|<second-package-name>)/)"
+    ],
+    "testEnvironment": "jsdom"
+  }
+}
