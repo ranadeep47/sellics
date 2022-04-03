@@ -28,9 +28,9 @@
     "parcel": "^2.4.1"
   },
   "jest": {
-    "transformIgnorePatterns": [
-      "node_modules/(?!(<package-name>|<second-package-name>)/)"
-    ],
-    "testEnvironment": "jsdom"
+    "testEnvironment": "jsdom",
+    "transform": {
+      "^.+\\.(js|jsx|mjs|cjs|ts|tsx)$": "<rootDir>/babelJest.js"
+    }
   }
 }
