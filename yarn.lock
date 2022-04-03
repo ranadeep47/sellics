@@ -825,7 +825,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.16.7"
     "@babel/helper-plugin-utils" "^7.16.7"
 
-"@babel/preset-env@^7.16.11":
+"@babel/preset-env@^7.16.11", "@babel/preset-env@^7.4.0":
   version "7.16.11"
   resolved "https://registry.yarnpkg.com/@babel/preset-env/-/preset-env-7.16.11.tgz#5dd88fd885fae36f88fd7c8342475c9f0abe2982"
   integrity sha512-qcmWG8R7ZW6WBRPZK//y+E3Cli151B20W1Rv7ln27vuPaXU/8TKms6jFdiJtF7UDTxcrb7mZd88tAeK9LjdT8g==
@@ -1209,6 +1209,14 @@
   dependencies:
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
+
+"@parcel/babel-preset-env@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@parcel/babel-preset-env/-/babel-preset-env-2.4.1.tgz#adc640a46e4223c2254c0b144b760c500c4b4baa"
+  integrity sha512-+BZ7mrvd2CHNV59In58q63UEmtrFs650Lett2eMKyNVRNA244No3xeqrg54H5CVeF2d38z+gxV6YEEde/wFYDA==
+  dependencies:
+    "@babel/preset-env" "^7.4.0"
+    semver "^5.7.1"
 
 "@parcel/bundler-default@2.4.1":
   version "2.4.1"
